@@ -1,5 +1,11 @@
 # Module-2-
-ground-color: white;
+.row{
+	position: center;
+	padding: 15px;
+	padding-top: 150px;
+}
+.row>div{
+background-color: white;
 padding: 10px;
 position: center;
 margin-bottom: 100px;
@@ -12,7 +18,7 @@ margin-bottom: 100px;
 }
 h1{
 	font-family: Brushstroke,fantasy;
-	color:#000000;
+	color:white;
 	text-align: center;
 	padding-top: 30px;
 }
@@ -210,5 +216,9 @@ section{
 	margin-left: auto;
 	margin-right: auto;
 
+}
+body{
+	background-image: url(space.jpg);
+	position: center;
 }
 
